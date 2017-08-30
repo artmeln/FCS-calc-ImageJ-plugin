@@ -3,21 +3,16 @@ An ImageJ plugin for calculating correlation functions for FCS (Fluorescence Cor
 
 # Description
 
-These programs implement software multi-tau correlator that acts efficiently on sparse photon records obtained in a fluorescence correlation spectroscopy (FCS) 
-
-experiment. Software correlators offer several advantages over hardware correlators since they allow more sophisticated data processing such as calculation of 
+These programs implement software multi-tau correlator that acts efficiently on sparse photon records obtained in a fluorescence correlation spectroscopy (FCS) experiment. Software correlators offer several advantages over hardware correlators since they allow more sophisticated data processing such as calculation of 
 
 high order correlation functions and incorporation of lifetime information (lifetime FCS and gated FCS).
 
 
 # Supported data types:
-Flex 8-bit
-
-Confocor2 raw
-
-Confocor3 raw
-
-PicoHarp 300 - *.pt3
+1. Flex 8-bit
+2. Confocor2 raw
+3. Confocor3 raw
+4. PicoHarp 300 - *.pt3
 
 If your data type is not supported, please submit an issue on this page, and I will incorporate your data type into FCS_calc.
 
