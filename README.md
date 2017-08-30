@@ -3,10 +3,7 @@ An ImageJ plugin for calculating correlation functions for FCS (Fluorescence Cor
 
 # Description
 
-These programs implement software multi-tau correlator that acts efficiently on sparse photon records obtained in a fluorescence correlation spectroscopy (FCS) experiment. Software correlators offer several advantages over hardware correlators since they allow more sophisticated data processing such as calculation of 
-
-high order correlation functions and incorporation of lifetime information (lifetime FCS and gated FCS).
-
+These programs implement software multi-tau correlator that acts efficiently on sparse photon records obtained in a fluorescence correlation spectroscopy (FCS) experiment. Software correlators offer several advantages over hardware correlators since they allow more sophisticated data processing such as calculation of high order correlation functions and incorporation of lifetime information (lifetime FCS and gated FCS).
 
 # Supported data types:
 1. Flex 8-bit
@@ -89,21 +86,15 @@ Melnykov and Hall (2009) Revival of high-order fluorescence correlation analysis
 These instructions are for version 1.1 (v1p1). The main differences from 1.0 are:
 
 1. Calculation of intensity traces.
-
 2. Support for *.pt3 files.
-
 3. Calculation of high order correlation functions.
 
 # Future additions
 
 1. Correction of the high order correlation functions for dead time effects.
-
 2. Calculation of higher order auto-correlations using sub-binning approach.
-
 3. Masking of intensity traces to eliminate spikes from calculations.
-
 4. Support for other data formats.
-
 5. C code corresponding to all Java methods.
 
 
